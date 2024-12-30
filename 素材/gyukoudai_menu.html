@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>メニュー</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="menu.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="menu">
+    <!-- ヘッダー -->
+    <header class="bg-danger text-white text-center py-4 position-relative">
+        <h1 class="gyukoudai">メニュー</h1>
+    </header>
+
+    <div class="container mt-5">
+        <div class="row">
+            <!-- メインコンテンツ -->
+            <main class="col-lg-8">
+                <!-- 牛肉セクション -->
+                <section class="menu-category gyuniku" id="gyuniku">
+                    <h2 class="mb-4">牛肉</h2>
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="koudai_karubi.jpg" class="card-img-top" alt="牛肉のコウダイカルビ">
+                                <div class="card-body">
+                                    <h3 class="card-title">工大カルビ</h3>
+                                    <p class="card-text">骨と骨の間の旨味の詰まった部位を丁寧にカット</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="karubi.jpg" class="card-img-top" alt="牛肉のカルビ">
+                                <div class="card-body">
+                                    <h3 class="card-title">カルビ</h3>
+                                    <p class="card-text">牛肉のうまみ、甘味と香りが楽しめます。最も人気のある定番メニューのひとつ。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="harami.jpg" class="card-img-top" alt="牛肉のハラミ">
+                                <div class="card-body">
+                                    <h3 class="card-title">ハラミ</h3>
+                                    <p class="card-text">国民のアイドル！お店一押し</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            
+                <!-- 豚肉セクション -->
+                <section class="menu-category butaniku mt-5" id="butaniku">
+                    <h2 class="mb-4">豚肉</h2>
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <img src="buta_tan.jpg" class="card-img-top" alt="豚肉のタン">
+                                <div class="card-body">
+                                    <h3 class="card-title">豚タン</h3>
+                                    <p class="card-text">コリコリ食感を楽しむ。牛タンでなくても満足できます。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <img src="buta_horumon.jpg" class="card-img-top" alt="豚肉のホルモン">
+                                <div class="card-body">
+                                    <h3 class="card-title">豚ホルモン</h3>
+                                    <p class="card-text">この食感クセになる</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            
+                <!-- 鶏肉セクション -->
+                <section class="menu-category toriniku mt-5" id="toriniku">
+                    <h2 class="mb-4">鶏肉</h2>
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <img src="tori_yagen.jpg" class="card-img-top" alt="鶏肉のヤゲン">
+                                <div class="card-body">
+                                    <h3 class="card-title">ヤゲン</h3>
+                                    <p class="card-text">ジューシーなハラミがついた、コリコリの軟骨</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <img src="tori_momo.jpg" class="card-img-top" alt="鶏肉のモモ">
+                                <div class="card-body">
+                                    <h3 class="card-title">モモ</h3>
+                                    <p class="card-text">お子様にも人気。やわらかくてジューシー</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <!-- サイドバー -->
+            <aside class="col-lg-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h3>カテゴリー</h3>
+                        <ul class="list-unstyled mt-3">
+                            <li><a href="#gyuniku" class="btn btn-primary w-100 mb-2">牛肉</a></li>
+                            <li><a href="#butaniku" class="btn btn-primary w-100 mb-2">豚肉</a></li>
+                            <li><a href="#toriniku" class="btn btn-primary w-100">鶏肉</a></li>
+                        </ul>
+                        <div class="mt-4">
+                            <a href="gyokoudai.html" class="btn btn-secondary w-100">トップ画面に戻る</a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- フッター -->
+    <footer class="bg-dark text-white text-center py-4">
+        <address id="contact">
+            お問い合わせ：<a href="mailto:info@net.it-chiba.ac.jp" class="text-warning">info@net.it-chiba.ac.jp</a><br>
+            場所：<a href="https://www.google.com/maps?q=〒000-0000+焼肉市美食町1-2-3" target="_blank" rel="noopener noreferrer" class="text-warning">〒000-0000 焼肉市美食町1-2-3</a><br>
+            電話番号：<a href="tel:000-456-7890" class="text-warning">000-456-7890</a>
+        </address>
+        <p><small>© 2022 Nlab</small></p>
+    </footer>
+
+    <!-- Bootstrap JSと依存関係 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
